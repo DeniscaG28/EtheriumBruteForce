@@ -40,7 +40,7 @@ def check():
             print("Private key:", private_key, "Error: ", e)
             break
 
-threads = 16
+threads = 32
 
 pool = Pool(threads)
 for _ in range(threads):
